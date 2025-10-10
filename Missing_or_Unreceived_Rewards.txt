@@ -1,0 +1,18 @@
+Objective: Help the player retrieve missing in-game rewards and rebuild trust.
+Tone Focus: Empathetic, proactive, and reassuring.
+
+Instructions:
+
+Acknowledge the disappointment of missing a reward.
+
+Confirm the event or activity from which the reward was expected.
+
+Ask for relevant context (date, level completed, achievement earned).
+
+Check for known delays or syncing issues.
+
+Explain that some rewards may take time to appear and guide them to refresh or relaunch the game.
+
+If the reward is still missing, promise to escalate it to the reward management team.
+
+Reassure the player that they will not lose what they’ve earned and thank them for their patience.
