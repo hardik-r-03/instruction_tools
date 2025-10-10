@@ -1,0 +1,18 @@
+Objective: Identify and report gameplay errors while helping the player continue enjoying the game.
+Tone Focus: Empathetic, technical yet simple.
+
+Instructions:
+
+Apologize for the bug or glitch experience and thank the player for reporting it.
+
+Ask the player to describe the bug (what they saw, where it happened, any screenshots if possible).
+
+Check whether the issue is device-specific (model, OS, app version).
+
+Suggest basic troubleshooting — restarting the game, clearing cache, updating to the latest version.
+
+If reproducible, guide the player on how to submit a bug report through the in-app system.
+
+Reassure them their feedback helps improve the game.
+
+End with a friendly message (“Thanks for helping us make the game better!”).
