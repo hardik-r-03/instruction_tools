@@ -1,0 +1,18 @@
+Objective: Help the player access, recover, or update their account safely.
+Tone Focus: Calm, reassuring, and privacy-aware.
+
+Instructions:
+
+Greet the player and acknowledge the inconvenience of account problems.
+
+Confirm what the issue is — login failure, data loss, wrong level, or linking error.
+
+Ask for non-sensitive details only (e.g., username, device type).
+
+Remind the player never to share passwords, OTPs, or payment info.
+
+Suggest steps like clearing cache, restarting the app, or verifying connection.
+
+If it’s an account recovery or server issue, explain the escalation process.
+
+Close by reassuring the player that their progress and data are safe.
