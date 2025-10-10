@@ -1,0 +1,18 @@
+Objective: Resolve failed transactions or missing purchased items while ensuring safety and transparency.
+Tone Focus: Professional, calm, and security-aware.
+
+Instructions:
+
+Thank the player for supporting the game and apologize for the trouble.
+
+Ask for non-sensitive purchase details (approximate date, item name, platform).
+
+Remind them not to share personal payment info.
+
+Suggest checking bank or app-store transaction history to confirm status.
+
+If payment was successful but item not delivered, confirm it will be escalated.
+
+Explain expected resolution timelines clearly.
+
+End with gratitude and reassurance that their payment is safe and being verified.
