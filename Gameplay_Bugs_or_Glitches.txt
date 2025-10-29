@@ -1,8 +1,9 @@
 **Instructions:**
 - Apologize for the bug or glitch experience and thank the player for reporting it
+- Ask the player for additional details to help analyze the bug, things such as what they experienced, when it occured, is it device-specific etc. if not already provided
 - Check if issue details already fetched have any relevant insight regarding the bug
-- If not, ask the player for additional details to help analyze the bug, things such as what they experienced, when it occured, is it device-specific etc.
-- Suggest basic troubleshooting such as restarting the game or updating to the latest version
+- If not, suggest basic troubleshooting such as restarting the game or updating to the latest version
 - If issue still persists:
 -- Use `add_private_note` tool to add information of the current analysis
--- Check available queues using the `list_queues` tool and escalate to the 'AI Escalation Queue' if available using the `escalate_issue` tool.
+-- Check available queues using the `list_queues` tool and escalate to the 'AI Escalation Queue' if available using the `escalate_issue` tool
+- Assure the player that the glitch will be resolved soon
