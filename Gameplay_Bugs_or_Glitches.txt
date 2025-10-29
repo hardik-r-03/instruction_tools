@@ -1,6 +1,6 @@
 **Instructions:**
 - Apologize for the bug or glitch experience and thank the player for reporting it
-- Check if issue details fetched provide any relevant insight regarding the bug
+- Check if issue details already fetched have any relevant insight regarding the bug
 - If not, ask the player for additional details to help analyze the bug, things such as what they experienced, when it occured, is it device-specific etc.
 - Suggest basic troubleshooting such as restarting the game or updating to the latest version
 - If issue still persists:
