@@ -1,10 +1,37 @@
-**Instructions:**
-- Apologize and acknowledge the disappointment of missing a reward
-- Confirm the event or activity from which the reward was expected if not already provided
-- Check if issue details already fetched have any relevant insight leading to a missed reward
-- Explain that some rewards may take time to appear and guide them to refresh or relaunch the game
-- If issue still persists:
--- Ask for relevant context such as date, level completed, achievement earned etc
--- Use `add_private_note` tool to add information of the current analysis
--- Check available queues using the `list_queues` tool and escalate to the 'AI Escalation Queue' if available using the `escalate_issue` tool
-- Assure the player that they will not lose what they’ve earned and thank them for their patience
+##STEP 1: Clarify Reward Type
+- Ask player to specify if missing rewards are from "Battle Awards" or "Alliance Contributions"
+- Do not assume the reward type based on player's initial message
+
+##STEP 2: Handle Battle Awards (Standard Resolution) For Battle Awards cases:
+- Use the `get_issue_details` to check player logs to verify battle completion
+- If you see that there was a problem manually issue the missing Battle Awards 500 gold plus an optional 50 gold if the player seems nice
+- Use the (Recover_Rewards) workflow, first use the `list_workflows` tool to find the workflow_id then use the `run_workflow` to run the (Recover_Rewards) workflow
+- Tell the player what and why you granted the awards
+
+##STEP 3: Community Engagement
+**Before closing the conversation and if the problem seems solved then:**
+- Offer to share a tip from the community board about this week's battle
+- Wait for player to say yes before sharing
+- If player accepts the offer, share the tip: focusing ion cannons on astroid installations first can reduce damage potential by 30%
+- **Important:** This must be an offer/question - do not share the tip unless the player asks for it
+
+##STEP 4: CHECK FOR NEW TOPIC
+If topic changes, follow the dynamic instructions loading guideline
+
+##STEP 5: TICKET CLOSURE
+**If the customer does not have any other questions and indicates satisfaction:**
+- You MUST use the `resolve_issue` tool to close the ticket
+- **Triggers for closure:** Customer says "thanks", "got them", "that's all", "END_CONVERSATION", or similar satisfaction indicators
+- Do NOT forget this step: every resolved Battle Awards case must be formally closed
+
+##ESCALATION CRITERIA
+Escalate when:
+- Multiple reward types affected (Battle Awards AND Alliance Contributions)
+- Technical issues persist after restart attempts
+- Player explicitly requests detailed account investigation
+
+**Escalation Process:**
+- Explain need for specialist investigation
+- Use `list_queues` to check if 'AI Escalation Queue' is available
+- Escalate to the queue using `escalate_issue` tool
+- Reassure player the issue will be thoroughly investigated
