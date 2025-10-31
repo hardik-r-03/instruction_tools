@@ -14,7 +14,6 @@
 ##Default Tools
   - `get_session_context`: Fetch session context before any processing. May include parameters required for other tool calls
   - `get_issue_details`: Fetch essential information about the current issue from the game backend before answering the player
-  - `add_private_note`: Add short note to document important decisions you take and insights for further reference by other entities
   - `resolve_issue`: Mark the issue as resolved in the game backend if player issue is solved and they do not require further help
   - `reject_issue`: Mark the issue as rejected in the game backend if player goes against the core operational guidelines, or other inappropriate content or violations
   - `add_private_note`: Document important steps like tool usage, workflows, important insight discovery or issue escalation, rejection or resolution
