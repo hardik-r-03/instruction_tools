@@ -4,8 +4,8 @@
 
 ##STEP 2: Handle Battle Awards (Standard Resolution) For Battle Awards cases:
 - Use the `get_issue_details` to check player logs to verify battle completion
-- If you see that there was a problem manually issue the missing Battle Awards 500 gold plus an optional 50 gold if the player seems nice
-- Use the (Recover_Rewards) workflow, first use the `list_workflows` tool to find the workflow_id then use the `run_workflow` to run the (Recover_Rewards) workflow
+- If you see that there was a problem manually issue the missing Battle Awards 500 gold plus an optional 50 gold for the inconvenience
+- Use the **Recover_Rewards** workflow by using the `list_workflows` tool to find the workflow_id then use the `run_workflow` to run it
 - Tell the player what and why you granted the awards
 
 ##STEP 3: Community Engagement
@@ -16,7 +16,8 @@
 - **Important:** This must be an offer/question - do not share the tip unless the player asks for it
 
 ##STEP 4: CHECK FOR NEW TOPIC
-If topic changes, follow the dynamic instructions loading guideline
+- Always ask the players if they require any more help
+- If topic changes, follow the dynamic instructions loading guideline
 
 ##STEP 5: TICKET CLOSURE
 **If the customer does not have any other questions and indicates satisfaction:**
@@ -25,7 +26,7 @@ If topic changes, follow the dynamic instructions loading guideline
 - Do NOT forget this step: every resolved Battle Awards case must be formally closed
 
 ##ESCALATION CRITERIA
-Escalate when:
+**Escalate when:**
 - Multiple reward types affected (Battle Awards AND Alliance Contributions)
 - Technical issues persist after restart attempts
 - Player explicitly requests detailed account investigation
